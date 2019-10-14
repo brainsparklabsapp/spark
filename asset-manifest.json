@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/spark/static/css/main.b100e6da.chunk.css",
+    "main.js": "/spark/static/js/main.091d5cc4.chunk.js",
+    "main.js.map": "/spark/static/js/main.091d5cc4.chunk.js.map",
+    "runtime-main.js": "/spark/static/js/runtime-main.2e58b3f2.js",
+    "runtime-main.js.map": "/spark/static/js/runtime-main.2e58b3f2.js.map",
+    "static/js/2.682a6dad.chunk.js": "/spark/static/js/2.682a6dad.chunk.js",
+    "static/js/2.682a6dad.chunk.js.map": "/spark/static/js/2.682a6dad.chunk.js.map",
+    "index.html": "/spark/index.html",
+    "precache-manifest.9b9d1b0cb751e5b25e5a9f92074b1ff2.js": "/spark/precache-manifest.9b9d1b0cb751e5b25e5a9f92074b1ff2.js",
+    "service-worker.js": "/spark/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/spark/static/css/main.b100e6da.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e58b3f2.js",
+    "static/js/2.682a6dad.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.091d5cc4.chunk.js"
+  ]
+}
