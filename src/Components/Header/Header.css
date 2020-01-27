@@ -1,0 +1,15 @@
+.Header {
+}
+
+.SupportButton {
+  background-color: transparent !important;
+  border: 2px solid #cecece;
+}
+
+.DiscussionHeader {
+  background-color: #49a8d9 !important;
+}
+
+.LetsTalkHeader {
+  background-color: #439993 !important;
+}
