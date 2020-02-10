@@ -17,8 +17,6 @@ class App extends React.Component {
   render() {
     // For deploying to GitHub Pages, need to set basename of BrowserRouter
 
-  console.log("PUBLIC_URL is |" + `${process.env.PUBLIC_URL}/` + "|");
-
     return (
       <div className="App">
         <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
