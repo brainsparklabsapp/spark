@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/spark/static/css/main.588a393e.chunk.css",
-    "main.js": "/spark/static/js/main.9d549a8f.chunk.js",
-    "main.js.map": "/spark/static/js/main.9d549a8f.chunk.js.map",
+    "main.js": "/spark/static/js/main.d36ea02a.chunk.js",
+    "main.js.map": "/spark/static/js/main.d36ea02a.chunk.js.map",
     "runtime-main.js": "/spark/static/js/runtime-main.2e58b3f2.js",
     "runtime-main.js.map": "/spark/static/js/runtime-main.2e58b3f2.js.map",
     "static/css/2.0624914a.chunk.css": "/spark/static/css/2.0624914a.chunk.css",
     "static/js/2.050a8a04.chunk.js": "/spark/static/js/2.050a8a04.chunk.js",
     "static/js/2.050a8a04.chunk.js.map": "/spark/static/js/2.050a8a04.chunk.js.map",
     "index.html": "/spark/index.html",
-    "precache-manifest.ff5279d7247247980d50097abb063954.js": "/spark/precache-manifest.ff5279d7247247980d50097abb063954.js",
+    "precache-manifest.aee0cd1522a3f7f661767a2a9119c750.js": "/spark/precache-manifest.aee0cd1522a3f7f661767a2a9119c750.js",
     "service-worker.js": "/spark/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/spark/static/css/2.0624914a.chunk.css.map",
     "static/css/main.588a393e.chunk.css.map": "/spark/static/css/main.588a393e.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.0624914a.chunk.css",
     "static/js/2.050a8a04.chunk.js",
     "static/css/main.588a393e.chunk.css",
-    "static/js/main.9d549a8f.chunk.js"
+    "static/js/main.d36ea02a.chunk.js"
   ]
 }
