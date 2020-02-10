@@ -17,9 +17,16 @@ class App extends React.Component {
   render() {
     // For deploying to GitHub Pages, need to set basename of BrowserRouter
 
+console.log("Process.env.PUBLIC_URL check");
+if (process && process.env ) {
+  console.log("Check PUBLIC_URL");
+}
+if (process && process.env && process.env.PUBLIC_URL) {
+  console.log("Process.env.PUBLIC_URL: |" + process.env.PUBLIC_URL + "|");
+}
     return (
       <div className="App">
-        <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div>
             <Switch>
               <Route path="/Conversation">
