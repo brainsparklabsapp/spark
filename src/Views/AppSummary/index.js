@@ -23,7 +23,7 @@ export default class AppSummary extends Component {
   render() {
     let appTitle = "Let's Talk App";
     let favicon = "/static/images/favicon.ico";
-    console.log('props.app in index render: |' + this.props.app + '|');
+    console.log('1props.app in index render: |' + this.props.app + '|');
     if (this.props.app === "Conversation") {
       appTitle = "Conversation Starters App";
       favicon = "/static/images/faviconDiscussion.ico";
