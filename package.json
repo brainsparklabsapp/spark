@@ -1,6 +1,5 @@
 {
   "name": "spark",
-  "homepage" : "http://brainsparklabsapp.github.io/spark",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
