@@ -26,7 +26,7 @@ if (process && process.env && process.env.PUBLIC_URL) {
 }
     return (
       <div className="App">
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter>
           <div>
             <Switch>
               <Route path="/Conversation">
