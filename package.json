@@ -1,7 +1,7 @@
 {
   "name": "spark",
   "version": "0.1.0",
-  "homepage": "https://brainsparklabsapp.github.io/spark",
+  "homepage": "https://letstalkapp.com",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
