@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import AppSummary from "./Views/AppSummary"
 
 class App extends React.Component {
@@ -15,18 +15,18 @@ class App extends React.Component {
 
 
   render() {
-    // For deploying to GitHub Pages, need to set basename of BrowserRouter
+    // For deploying to GitHub Pages, need to set basename of HashRouter
 
-console.log("Process.env.PUBLIC_URL check");
-if (process && process.env ) {
-  console.log("Check PUBLIC_URL");
-}
-if (process && process.env && process.env.PUBLIC_URL) {
-  console.log("Process.env.PUBLIC_URL: |" + process.env.PUBLIC_URL + "|");
-}
+// console.log("Process.env.PUBLIC_URL check");
+// if (process && process.env ) {
+  // console.log("Check PUBLIC_URL");
+// }
+// if (process && process.env && process.env.PUBLIC_URL) {
+  // console.log("Process.env.PUBLIC_URL: |" + process.env.PUBLIC_URL + "|");
+// }
     return (
       <div className="App">
-        <BrowserRouter>
+        <HashRouter basename="/">
           <div>
             <Switch>
               <Route path="/Conversation">
@@ -46,7 +46,7 @@ if (process && process.env && process.env.PUBLIC_URL) {
               </Route>
             </Switch>
           </div>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
   }
