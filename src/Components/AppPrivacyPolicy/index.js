@@ -33,10 +33,6 @@ class AppPrivacyPolicy extends Component {
          <p>
           No user information is collected by the {this.props.appTitle}.
          </p> 
-         <p>
-          The App does use third party services that may collect
-          information used to identify you.
-         </p>
 
           <p><strong>Log Data</strong></p> <p>
             The App does not log any user data.
